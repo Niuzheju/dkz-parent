@@ -2,7 +2,15 @@
 >dkz-parent  
 >>dkz-api
 
->>dkz-model
+>>dkz-model --实体
+
+>>>com.atgugui.enums --枚举模块
+
+>>>com.atgugui.exceptions -- 自定义异常模块
+
+>>>com.atgugui.model -- 实体类
+
+>>>com.atgugui.result -- 自定义返回实体
 
 >>dkz-provide
 >>>jdbc --进行数据访问
